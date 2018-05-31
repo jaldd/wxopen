@@ -1,0 +1,9 @@
+<view class='item'>
+  <view class='login-item'>
+    <view class='login-item-info'>用户名</view>
+    <view><input bindinput='usernameInput'></input></view>
+  </view>
+  <view class='login-item'>密码</view>
+  <view class='login-btn' bindtap='loginClick'>登录</view>
+  <view class='login-item'>注册</view>
+</view>

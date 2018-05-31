@@ -1,0 +1,38 @@
+<include src="../template/header"/>
+
+<input placeholder="apple" bindinput='input' focus="{{focus}}" />
+<button type='primary' bindtap='btnClick'>翻译</button>
+<scroll-view scroll-y="true" style='height:20px;'>
+  <view wx:for="{{fyinfo.trans_result}}">
+    {{item.dst}}
+  </view>
+</scroll-view>
+
+<view class='view1' bindtap='view1click' id="view1" data-title="news" data-id="100">
+  view11  事件冒泡
+  <view class='view2' bindtap='view2click'>
+    view22  
+    <view class='view3' bindtap='view3click' id="view3">
+      view33
+      <view class='view4' catchtap='view4click' id="view4">
+        view33
+      </view>
+    </view>
+  </view>
+
+</view>
+
+
+
+
+sadfdsd
+<button type="default" hover-class="other-button-hover">default</button>
+<button type="primary" bindtap='btnclick'>{{btnText}}</button>
+<text>{{text}}</text>
+<view wx:if="{{show}}">{{text}}1</view>
+<view wx:else="{{!show}}">{{text}}2</view>
+<view wx:for="{{news}}" wx:for-item="newsitem">
+ {{index}} {{newsitem}}
+</view>
+<import src="../template/footer"/>
+<template is="footer1"/>

@@ -1,0 +1,26 @@
+.view1{
+  height: 400rpx;
+  width: 100%;
+  background-color: rebeccapurple;
+}
+.view2{
+  height: 300rpx;
+  width: 80%;
+  background-color: red;
+}
+.view3{
+  height: 200rpx;
+  width: 60%;
+  background-color: black;
+}
+.view4{
+  height: 50rpx;
+  width: 10%;
+  background-color:blanchedalmond;
+}
+input{
+  border: 1px solid red;
+  width: 90%;
+  margin: 5%;
+  padding: 5;
+}
