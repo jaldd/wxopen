@@ -1,0 +1,3 @@
+<view>
+<canvas style='width:100%;height:200px' canvas-id='firstCanvas' bindtap='canvasClick'></canvas>
+</view>
