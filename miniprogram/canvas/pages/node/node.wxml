@@ -1,0 +1,13 @@
+<view>
+  <text>节点列表</text>
+  <view style='display:flex;flex-wrap:wrap'>
+    <view style='display:flex;flex-direction:column;flex:0 0 33%;text-align:center;align-items:center'>
+      <image style='width:48px;height:48px;' src='logo.png'></image>
+      <text style='display:block'>节点名称</text>
+    </view>
+    <view style='display:flex;flex-direction:column;flex:0 0 33%;text-align:center;align-items:center'>
+      <image style='width:48px;height:48px;' src='logo.png'></image>
+      <text style='display:block'>节点名称</text>
+    </view>
+  </view>
+</view>

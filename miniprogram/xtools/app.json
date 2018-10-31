@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/movie/movie",
+    "pages/main/main",
+    "pages/cal/cal",
+    "pages/list/list",
+    "pages/logs/logs"
+  ],
+  "tabBar":{
+    "color":"#CCCCCC",
+    "selectedColor":"#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#2C2C2C",
+    "list":[{
+      "pagePath":"pages/movie/movie",
+      "iconPath":"assets/img/movie/dy-1.png",
+      "selectedIconPath":"assets/img/movie/dy.png", 
+      "text":"影院热映"
+    },{
+      "pagePath": "pages/movie/movie",
+      "iconPath": "assets/img/movie/tj-1.png",
+      "selectedIconPath": "assets/img/movie/tj.png",      
+      "text": "电影推荐"
+    },{
+      "pagePath": "pages/movie/movie",
+      "iconPath": "assets/img/movie/search-1.png",
+      "selectedIconPath": "assets/img/movie/search.png",      
+      "text": "查询电影"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "山河小工具",
+    "navigationBarTextStyle":"black"
+  }
+}

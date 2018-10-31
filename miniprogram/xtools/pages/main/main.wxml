@@ -1,0 +1,17 @@
+<view class="content">
+  <view class='today'>
+    <view class='info'>
+      <view class='temp'>{{today.temperature}}</view>
+      <view class='weather'>{{today.weatherDesc}} {{today.wind}}</view>
+      <view class='weather'>{{today.date}}</view>
+      <view>友情提示：{{today.tipt}}</view>
+      <view class='city'>{{today.currentCity}}</view>
+    </view>
+  </view>
+  <import src="../template/main/tpm"/>
+  <view class='future'>
+    <block wx:for="{{future}}" wx:key="item">
+      <template is="future-item" data="{{item}}"/>
+    </block>
+  </view>
+</view>

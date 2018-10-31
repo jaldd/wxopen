@@ -1,0 +1,20 @@
+<view class='page'>
+  <image src='../image/logo.png' style='width:50px;height:50px'></image>
+  <text>text</text>
+  <view style='width:100%;border:1px solid;'>
+    <view style='margin-top:10px;margin-bottom:10px'>
+      <text style='font-size:20px;color:#353535'>12345</text>
+    </view>
+    <view style='display:flex;justify-content:space-between'>
+      <text style='font-size:20px;color:#8888'>12345</text><text style='font-size:20px;color:#8888'>22222</text>
+    </view>
+  </view>
+  <view style='width:100%;border:1px solid;margin-top:10px'>
+    <view style='margin-top:10px;margin-bottom:10px'>
+      <text style='font-size:20px;color:#353535'>12345</text>
+    </view>
+    <view style='display:flex;justify-content:space-between'>
+      <text style='font-size:20px;color:#8888'>12345</text><text style='font-size:20px;color:#8888'>22222</text>
+    </view>
+  </view>
+</view>

@@ -1,15 +1,15 @@
 {
   "pages":[
-    "pages/layout/layout",
     "pages/index/index",
     "pages/user/user",
     "pages/login/login",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/layout/layout"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "用户登录",
+    "navigationBarTitleText": "用户登录1",
     "navigationBarTextStyle":"black"
   },
   "tabBar":{ 

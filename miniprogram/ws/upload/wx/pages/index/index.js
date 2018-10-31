@@ -25,6 +25,25 @@ Page({
     //     })
     //   }
     // })
+
+
+    wx.getLocation({
+      type: 'wgs84',
+      success: function (res) {
+        console.log(res)
+        wx.chooseLocation({
+          latitude:res.latitude,
+          longitude:res.longitude,
+          success: function(res) {
+            console.log(res)
+          },
+        })
+      },
+    })
+
+    wx.pauseBackgroundAudio({
+
+    })
     var that=this;
     wx.downloadFile({
       url:'http://localhost:8080/1.jpg',
@@ -32,7 +51,9 @@ Page({
       success:function(res){
         that.setData({avatar:res.tempFilePath})
       }
-    })
+    });
+
+
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
@@ -69,5 +90,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  onReady:function(){
+    // wx.playBackgroundAudio({
+    //   dataUrl: 'http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E06DCBDC9AB7C49FD713D632D313AC4858BACB8DDD29067D3C601481D36E62053BF8DFEAF74C0A5CCFADD6471160CAF3E6A&fromtag=46',
+    // })
   }
 })

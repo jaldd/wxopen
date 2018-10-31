@@ -1,0 +1,43 @@
+<view class="content">
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" style="width:100%"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='movie'>
+    <view class='pic'>
+      <image src="http://img3.doubanio.com//view//celebrity//s_ratio_celebrity//public//p4077.webp" mode='aspectFit'></image>
+    </view>
+    <view class='movie-info'>
+      <view class='base-info'>
+        <text>{{"电影名称：a\n导演：b\n 演员：c\n"}}</text>              
+      </view>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='movie'>
+    <view class='pic'>
+      <image src="http://img3.doubanio.com//view//celebrity//s_ratio_celebrity//public//p4077.webp"></image>
+    </view>
+    <view class='movie-info'>
+      <view class='base-info'>
+        <text>{{"电影名称：a\n导演：b\n 演员：c\n"}}</text>              
+      </view>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='movie'>
+    <view class='pic'>
+      <image src="http://img3.doubanio.com//view//celebrity//s_ratio_celebrity//public//p4077.webp"></image>
+    </view>
+    <view class='movie-info'>
+      <view class='base-info'>
+        <text>{{"电影名称：a\n导演：b\n 演员：c\n"}}</text>              
+      </view>
+    </view>
+  </view>
+  <view class='hr'></view>
+</view>
